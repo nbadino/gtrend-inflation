@@ -1,8 +1,8 @@
 library(lubridate)
 library(tidyverse)
 library(forecast)
-google <- read.csv(file="Documents/r/google.csv")
-istat<-read.csv(url("https://raw.githubusercontent.com/nbadino/gtrend-inflation/main/istat.csv"))
+google <- read.csv("https://raw.githubusercontent.com/nbadino/gtrend-inflation/main/google.csv")
+istat<-read.csv("https://raw.githubusercontent.com/nbadino/gtrend-inflation/main/istat.csv")
 CPI <-read.csv("https://raw.githubusercontent.com/nbadino/gtrend-inflation/main/CPI.csv")
 istat[196:196,2:8]<-(istat[195:195,2:8]+istat[197:197,2:8])/2
 head(google)
