@@ -1,0 +1,16 @@
+\documentclass{article}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{?]
+\author{Badino Nicolò, Soldati Niccolo'}
+\date{June 2021}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\begin{abstract}
+In this paper, we study the appropriateness of Google Trends to predict inflation in Italy on a monthly basis. We create an index that can replace the monthly surveys of the Italian Statistical Institute (ISTAT) on consumer expectations on price trends.
+\end{abstract}
+\section{Introduction}
+Starting from January 1, 2004, Google has opened the trends.google.it site for free consultation, which allows visitors to access data on the progress of searches of its search engine for any keyword searched. By typing any word, the site provides the history of the amount of searches carried out at a customizable time resolution between the minute and the month.
+
+\end{document}
